@@ -1,0 +1,30 @@
+.top {
+    width: 100%;
+    background-color: black;
+}
+
+.background {
+    z-index: -1;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 15em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+}
+
+.show {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-areas: 
+        blankleft flyer blankright;
+    margin-top: 10vh;
+}
